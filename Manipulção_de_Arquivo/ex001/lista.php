@@ -38,7 +38,7 @@ th,td{
 </style>
 <body>
   <fieldset>
-    <legend><h1>Usuários cadastrados</h1></legend>
+    <legend><h1>Usuários Cadastrados:</h1></legend>
 
     <table >
             <tr>
