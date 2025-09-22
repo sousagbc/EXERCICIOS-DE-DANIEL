@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulador de Arquivo JSON</title>
+
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+        fieldset {
+            
+            border-color: black;
+            background-color: linear-gradient(to right, #243949 0%, #517fa4 100%);;               /*background-color: #fefced;*/
+            padding: 50px;
+            padding-bottom: 50px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            margin-bottom: 150px;
+            box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.6) ;
+            border-radius: 40px;
+            border-style: hi;
+            background-color: white;
+            margin-top: 150px;
+            margin-left: 450px;
+            margin-right: 450px;
+           
+        }
+       
+
+        #cadastro{
+            font-size: 36px;
+            text-align: center;
+            text-orientation: upright;
+            margin-bottom: 100px;
+
+        }
+       
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+
+        }
+
+       
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 30px;
+            background-color: gainsboro;
+            box-sizing:border-box; 
+            filter: opacity(50%);
+        }
+
+       
+       
+
+        #botao {
+           
+            font-weight: bold;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 15px 15px;
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-right: 200px;
+            margin-left: 200px;
+            text-align: center;
+            background: linear-gradient(to right, #243949 0%, #517fa4 100%);;
+            border-style: double;
+            border-radius: 25px;
+            cursor: pointer;
+            border:none;
+            color: white;
+         
+
+            
+            
+        }
+
+        #botao:hover{
+            align-items: center;
+             box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4) ;
+        }
+
+
+        
+
+        #espaçamento{
+            padding: 10px 10px;
+          
+        }
+      
+    </style>
+</head>
+<body>
+        <form action="salvar_usuario.PHP" method="post">
+            <fieldset>
+                <div id="espaçamento"> <h1 id="cadastro">Cadastre-se</h1>
+                    <label for="email1">
+                        E-mail : <br><br><input  required type="email" name="email" placeholder="Digite seu e-mail">
+                    </label>
+                    <br><br>
+                    <label for="nome1">
+                        Nome : <br> <br><input type="text"  required name="nome" placeholder="Digite o seu nome">
+                    </label>
+                    <br><br>
+                    <input type="submit" id="botao" value=  "Enviar" > 
+                </div>
+              
+         
+            </fieldset>
+         
+
+
+
+
+        </form>
+
+
+
+
+</body>
+</html>
