@@ -1,4 +1,4 @@
-PASTA PESSOAL DEDICADA A ESTUDO!
+PASTA PESSOAL DEDICADA A ESTUDO DE PHP!
 
 Pastas de Exercícios Referentes as aulas de PHP do Professor Daniel Brandão da Faculdade Unipê.
 
